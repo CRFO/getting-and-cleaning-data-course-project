@@ -1,9 +1,7 @@
 # Getting and Cleaning Data Course Project
 # README File
-======
 
 ## Overview
-------
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. I have create one R script called ```run_analysis.R``` that does the following.
 
@@ -24,7 +22,6 @@ The purpose of this project is to demonstrate your ability to collect, work with
 5. Run ```source("run_analysis.R")```, then it will create a new file ```tidy_data.txt``` in your working directory. ```tidy_data.txt``` file is created by executing: ```write.table('tidy_data.txt', sep=" ", row.names = FALSE)```
 
 ## Dependencies
-------
 
 Make sure ```dplyr``` library is installed prior to executing the ```"run_analysis.R"``` script.
 
