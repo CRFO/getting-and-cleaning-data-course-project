@@ -60,4 +60,4 @@ Notes:
 4. Appropriately labels the data set with descriptive activity names. This matches the six activities each person did: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. The tidy data set is called ```tidy_data.txt``` and placed in the same folder of the ```run_analysis.R``` script.
 
-For more information on this project and regarding the ```run_analysis.R``` script, please read the README.md file.
+For more information on this project and regarding the ```run_analysis.R``` script, please read the ```README.md``` file.
