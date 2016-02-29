@@ -1,4 +1,5 @@
-# README for Getting and Cleaning Data Course Project
+# Getting and Cleaning Data Course Project
+# README File
 ======
 
 ## Overview
@@ -20,12 +21,12 @@ The purpose of this project is to demonstrate your ability to collect, work with
    "UCI HAR Dataset" folder will be created when data source above is unzipped. 
 3. Place ```"run_analysis.R"``` script in the parent folder of "UCI HAR Dataset".
 4. Set your working directory to where this script is located using ```"setwd()"``` function in RStudio.
-5. Run ```source("run_analysis.R")``, then it will create a new file ```tidy_data.txt``` in your working directory. ```tidy_data.txt``` file is created by executing: ```write.table('tidy_data.txt', sep=" ", row.names = FALSE)```
+5. Run ```source("run_analysis.R")```, then it will create a new file ```tidy_data.txt``` in your working directory. ```tidy_data.txt``` file is created by executing: ```write.table('tidy_data.txt', sep=" ", row.names = FALSE)```
 
 ## Dependencies
 ------
 
-Make sure ```dplyr``` library is installed prior to executing the ```"run_analysis.R" script.
+Make sure ```dplyr``` library is installed prior to executing the ```"run_analysis.R"``` script.
 
-Please read CodeBook.md for data source information and tranformation details.
+Please read ```CodeBook.md``` for data source information and tranformation details.
 
