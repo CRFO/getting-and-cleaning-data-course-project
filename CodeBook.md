@@ -1,10 +1,9 @@
-# CodeBook for Getting and Cleaning Data Course Project
-======
+# Getting and Cleaning Data Course Project
+# CodeBook File
 
 This is a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 
 ## Information about the data source
-------
 
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
@@ -19,7 +18,6 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 ## This Dataset includes the following files
-------
 
 - 'README.txt'
 
@@ -52,7 +50,6 @@ Notes:
 - Each feature vector is a row on the text file.
 
 # Transformation Details
-------
 
 1. Merges the training and the test sets to create one data set. Training and test sets are X_train.txt, y_train.txt, X_test.txt and y_test.txt.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. This includes any measurement that has "mean" or "std" in their name.
